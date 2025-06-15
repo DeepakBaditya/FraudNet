@@ -2,37 +2,63 @@ FraudNet is a machine learning-powered job fraud detection system designed to id
 
 ## 🚀 How to Run
 
-### 🧠 On GitHub Codespaces
+### 🧠 Option 1: Run in GitHub Codespaces
 
-1. Click **Code** → **Codespaces** → **New codespace**
-2. In the terminal, run:
+1. Click **`Code`** → **`Codespaces`** → **`New codespace`**
+2. Once it's ready, run this in the terminal:
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-💻 On Your Local Machine
-Clone the repo:
+```
 
-bash
-Copy
-Edit
+---
+
+### 💻 Option 2: Run Locally
+
+#### 1. Clone the repository
+
+```bash
 git clone https://github.com/DeepakBaditya/FraudNet.git
 cd FraudNet
-Install packages:
+```
 
-bash
-Copy
-Edit
+#### 2. Install the dependencies
+
+```bash
 pip install -r requirements.txt
-Run the app:
+```
 
-bash
-Copy
-Edit
+#### 3. Launch the Streamlit app
+
+```bash
 streamlit run app.py
-📝 What It Does
-Upload a .csv file with job data
+```
 
-The model detects whether each job post is Fraudulent or Genuine
+---
 
-Simple and easy-to-use interface
+## 📂 requirements.txt
+
+```txt
+streamlit
+pandas
+scikit-learn
+xgboost
+joblib
+```
+
+---
+
+## 🧪 Example Output
+
+You’ll get predictions like:
+
+- ✅ Genuine  
+- ❌ Fraudulent
+
+### 📝 What It Does
+- Upload a .csv file with job data
+
+- The model detects whether each job post is Fraudulent or Genuine
+
+- Simple and easy-to-use interface
