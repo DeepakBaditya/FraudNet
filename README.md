@@ -62,3 +62,6 @@ You’ll get predictions like:
 - The model detects whether each job post is Fraudulent or Genuine
 
 - Simple and easy-to-use interface
+
+### 💻 Video Explanation
+link - https://drive.google.com/drive/u/0/folders/12BegNsmJdf6VCG8ljllV43d8hhvSVF85
